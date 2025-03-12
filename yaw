@@ -1,0 +1,40 @@
+Di sebuah negeri yang penuh misteri, terdapat seorang ksatria pemberani yang ingin mengungkap rahasia Gerbang Keabadian. Namun, perjalanannya sangatlah tidak mudah. Ia harus melangkah sejauh mungkin dengan langkah yang sudah ditentukan dan dengan nyawa yang terbatas.
+
+ 
+
+Dalam perjalanan, ia akan menemukan jebakan dan juga keuntungan:
+
+Jebakan akan muncul di langkah yang bernilai kelipatan 4. Setiap kali menginjakkan langkah di kelipatan 4, nyawa sang ksatria akan berkurang satu. Jika nyawa habis sebelum mencapai Gerbang Keabadian, petualangannya akan gagal.
+
+Nyawa tambahan akan muncul di langkah yang bernilai kelipatan 6. Setiap kali menginjakkan langkah di kelipatan 6, nyawa sang ksatria akan bertambah satu. 
+
+Jika ksatria berhasil mencapai Gerbang Keabadian tanpa kehabisan nyawa, maka petualangannya berhasil.
+
+ 
+
+Buatlah fungsi bernama petualanganKsatria yang memiliki parameter-parameter dengan penjelasan berikut ini:
+
+jarak (int) merupakan jarak (dengan satuan langkah) antara posisi awal Ksatria dan Gerbang Keabadian
+
+lebar_langkah (int) merupakan lebar dari setiap langkah ksatria dalam sekali melangkah
+
+nyawa_awal (int) merupakan nyawa yang dimiliki Ksatria sebelum melangkah dalam petualangannya
+
+ 
+
+Output
+Output selalu diawali dengan print MULAI sebagai langkah pertama (nilai langkah awal dimulai dari 1)
+
+Jika langkah bukan merupakan jebakan atau nyawa tambahan, maka print nilai langkah tersebut
+
+Jika langkah merupakan jebakan, print JEBAKAN
+
+Jika langkah merupakan nyawa tambahan, maka print NYAWA+
+
+Jika ksatria berhasil mencapai Gerbang Keabadian, maka print BERHASIL
+
+Jika nyawa ksatria sudah habis sebelum mencapai Gerbang Keabadian, maka print GAGAL dan langkah dihentikan
+
+Jarak antar output adalah dua whitespace (“  ”)
+
+Output diperoleh melalui PRINT, bukan RETURN
